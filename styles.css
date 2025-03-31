@@ -1,0 +1,91 @@
+/* Define color variables */
+:root {
+    --primary-color: #d32f2f;
+    --secondary-color: #f5f5f5;
+    --text-color: white;
+}
+
+/* General styling */
+/* Apply Marathi fonts */
+body {
+    font-family: 'Mukta', 'Baloo Bhai 2', sans-serif;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Section Titles */
+.section-title {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B0000; /* Dark red color */
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-nav .nav-link {
+    color: var(--text-color) !important;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b !important;
+}
+
+/* Hero section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?temple,indian') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* Event list styling */
+.list-group-item {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    font-size: 1rem;
+    padding: 15px;
+}
